@@ -3,12 +3,6 @@ body{
     font-family: var(--font-dm-sans);
 }
 
-.sidebar__navigation{
-    background-color: #121212;
-    border-radius:8px;
-    padding:16px 0 0 16px;
-}
-
 .sidebar{
     position:fixed;
     top:0;
@@ -16,6 +10,12 @@ body{
     bottom:0;
     padding:12px;
     width:300px;
+}
+
+.sidebar__navigation{
+    background-color: #121212;
+    border-radius:8px;
+    padding:16px 0 0 16px;
 }
 
 .logo{
@@ -191,7 +191,7 @@ body{
     color: #ffffff;
     font-size: 14px;
     font-weight: 500;
-}
+}   
 
 .disclaimer-premium button {
     background-color: #ffffff;
